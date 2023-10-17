@@ -1,0 +1,10 @@
+body{
+    background-color: wheat;
+}
+ul{
+    color: blue;
+   
+}
+ul > li{
+    text-decoration: nones;
+}
