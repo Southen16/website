@@ -7,36 +7,30 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    
-
     <header>
-        
-        <h1>CC</h1>
-        <nav>
-            <ul>
-              <li class="element"><a href="#home">Home</a></li>
-              <li class="element"><a href="#about">About</a></li>
-              <li class="element"><a href="#menu">Menu</a></li>
-              <li class="element"><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
-      </header>
-<!-- ikkada daka aipoindi -->
+      
+      <nav>
+        <ul>
+          <li class="element"><a href="#home">Home</a></li>
+          <li class="element"><a href="#about">About</a></li>
+          <li class="element"><a href="#menu">Menu</a></li>
+          <li class="element"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ikkada daka aipoindi -->
     <!-- Home -->
-    <section id="home">
-      <div class="homeContainer">
-        <h1 class="element">Tasty Authentic Food</h1>
-        <h2>Every Day</h2>
-        <h3 class="element">Today's Special Menu</h3>
-        <a href="#menu" class="button">View Menu</a>
-        <img
-          class="element"
-          src="thaali.jpeg"
-          height="200"
-          width="300"
-          alt="image of thaali"
-        />
-      </div>
+
+    <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+            <div class="home__data">
+                <h1 class="home__title">Tasty Authentic Food</h1>
+                <h2 class="home__subtitle">Every Day <br> the week.</h2>
+                <a href="#" class="button">View Menu</a>
+            </div>
+
+            <img class="element" src="thaali.jpeg" height="200" width="300" alt="image of thaali"/>
+        </div>
     </section>
 
     <!-- About -->
@@ -166,17 +160,33 @@
             <li><a href="#" class="footer__link">Terms of services</a></li>
           </ul>
         </div>
-        <div class="footer__content">
+        <div class="footer__content1">
           <h3 class="footer__title">Address</h3>
-          <ul>
-            <li>Bell Road</li>
-            <li>Phoenix, Arizona #999</li>
-            <li>999 - 888 - 777</li>
-            <li>chennaichettinadu@email.com</li>
-          </ul>
+          <p>
+            2814 W Bell Rd Phoenix, AZ 85053</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/freecodecamp/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/freecodecamp/">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com/freecodecamp">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/school/free-code-camp/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.youtube.com/freecodecamp">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
+            <p><a href="mailto:nama.southen16@gmail.com" target="_blank">nama.southen16@gmail.com</a></p>
+
+          <p class="footer__copy">&copy; 2023 Southen. All rights reserved</p> 
         </div>
       </div>
-      <p class="footer__copy">&copy; 2023 Southern. All rights reserved</p>
+      
     </footer>
   </body>
 </html>
