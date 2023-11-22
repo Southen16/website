@@ -1,0 +1,578 @@
+<h1>
+    Hi
+</h1>
+<style>
+    /* Reset some default styles */
+body,
+h1,
+p,
+ul,
+li,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #ff6347;
+  list-style: none;
+}
+
+h2 {
+  color: yellowgreen;
+}
+
+/* Box-sizing border-box for all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #ff6347; /* Change to your preferred hover color */
+}
+
+/* Home section styles */
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+  background-color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Style the home section */
+.home {
+  background-color: rgb(231, 225, 225); /* Set the background color for the section */
+  padding: 80px 0; /* Add some padding to the top and bottom */
+}
+
+/* Center the content inside the section */
+.home__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Style the title */
+.home__title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style the subtitle */
+.home__subtitle {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Style the button */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #e8491d;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Change button color on hover */
+.button:hover {
+  background-color: #333;
+}
+
+/* Style the image */
+.element {
+  margin-top: 20px; /* Add some space between the text and the image */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+
+
+
+/* About section styles */
+#about {
+  background-color: #ffffff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.aboutContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-subtitle,
+h1 {
+  flex-basis: 100%;
+  font-size: 2.5em;
+  color: black; /* Choose your preferred text color */
+  margin-bottom: 20px;
+}
+
+.about-p {
+  flex-basis: 60%;
+  font-size: 1.2em;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.aboutimage {
+  flex-basis: 40%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .about-p, .aboutimage {
+    flex-basis: 100%;
+  }
+}
+
+/* Menu section styles */
+.menu {
+  padding: 50px 20px;
+  background-color: aliceblue;
+}
+
+.menu__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 100px;
+}
+
+.menu__content {
+  text-align: center;
+}
+
+.section-title, .section-subtitle1 {
+  color: darkcyan;
+  text-align: center;
+}
+
+.menu__img {
+  border-radius: 60px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.menu__name {
+  font-size: 24px;
+  margin: 10px 0;
+  color: orangered;
+}
+
+.menu__detail {
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.menu__price {
+  font-weight: bold;
+  color: #333;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff6347;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+.button1{
+  margin-top: 100px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff6347;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+.button:hover {
+  background-color: #333; /* Change to your preferred hover color */
+}
+
+/* Contact section styles */
+.contact {
+  background-color: rgb(243, 241, 241);
+  padding: 100px 20px;
+}
+
+.contact__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.contact__data {
+  text-align: center;
+}
+
+.contact__description {
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.contact__button {
+  text-align: center;
+}
+
+/* Footer styles */
+.footer {
+  background-color: aliceblue;
+  color: #fff;
+  padding: 50px 20px;
+  list-style: none;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.footer__content,
+.footer__content1 {
+  text-align: center;
+}
+
+.footer__logo {
+  margin-top: 100px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff6347;
+  text-decoration: none;
+}
+
+.footer__description {
+  color: #ff6347;
+  margin-bottom: 20px;
+}
+
+.footer__social {
+  font-size: 24px;
+  margin-right: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer__social:hover {
+  color: cornflowerblue; /* Change to your preferred hover color */
+}
+
+.footer__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer__link:hover {
+  color: #ff6347; /* Change to your preferred hover color */
+}
+
+.footer__copy {
+  font-size: 15px;
+  margin-top: 20px;
+}
+/* Add these styles to your CSS */
+/* Responsive navigation styles */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.element {
+  margin-right: 20px;
+}
+
+/* Responsive menu styles */
+@media (max-width: 768px) {
+  .nav-toggle {
+      display: flex;
+  }
+  
+
+  .nav-list {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-list.show {
+      display: flex;
+  }
+
+  .element {
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+  }
+}
+
+
+
+
+</style>
+<nav>
+    <ul>
+      <li class="element"><a href="#home">Home</a></li>
+      <li class="element"><a href="#about">About</a></li>
+      <li class="element"><a href="#menu">Menu</a></li>
+      <li class="element"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home -->
+
+  <section class="home" id="home">
+    <div class="home__container bd-container bd-grid">
+      <div class="home__data">
+        <h1 class="home__title">Tasty Authentic Food</h1>
+        <h2 class="home__subtitle">
+          Every Day <br />
+          the week.
+        </h2>
+        <a href="#menu" class="button">View Menu</a>
+      </div>
+
+      <img
+        class="element"
+        src="thaali.jpeg"
+        height="200"
+        width="300"
+        alt="image of thaali"
+      />
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="aboutContainer">
+      <span class="section-subtitle about__initial">About us</span>
+      <h1>We Bring Tasty Food Every Day</h1>
+      <p class="about-p">
+        We cook the best food in the entire city, with excellent customer
+        service, the best meals, and at the best price. Visit us.
+      </p>
+      <div>
+        <img
+          class="aboutimage"
+          src="aboutus.jpeg"
+          height="200"
+          width="300"
+          alt="image of thaali"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu">
+    <div class="menu section bd-container">
+      <h2 class="section-subtitle1">Special</h2>
+      <h2 class="section-title">Menu of the week</h2>
+      <div class="menu__container bd-grid">
+        <div class="menu__content">
+          <img
+            src="biryani.jpeg"
+            width="200"
+            alt="Image Biryani"
+            class="menu__img"
+          />
+          <h3 class="menu__name">Chicken Biryani</h3>
+          <a href="#" class="button menu__button">
+            <span class="menu__price">$15.00</span>
+            <i class="bx bx-cart-alt"></i>
+          </a>
+        </div>
+        <div class="menu__content">
+          <img
+            src="fish.avif"
+            width="200"
+            alt="Fish Image"
+            class="menu__img"
+          />
+          <h3 class="menu__name">Salad with fish</h3>
+          <a href="#" class="button menu__button">
+            <span class="menu__price">$18.99</span>
+            <i class="bx bx-cart-alt"></i>
+          </a>
+        </div>
+        <div class="menu__content">
+          <img
+            src="special.webp"
+            width="200"
+            alt="Andhra Special"
+            class="menu__img"
+          />
+          <h3 class="menu__name">Andhra Special</h3>
+
+          <a href="#" class="button menu__button">
+            <span class="menu__price">$9.50</span>
+            <i class="bx bx-cart-alt"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact">
+    <div class="contact section bd-container">
+      <div class="contact__container bd-grid">
+        <div class="contact__data">
+          <span class="section-subtitle contact__initial">Let's talk</span>
+          <h2 class="section-title contact__initial">Contact us</h2>
+          <p class="contact__description">
+            If you want to reserve a table in our restaurant, contact us, and
+            we will attend to you quickly with our 24/7 chat service.
+          </p>
+        </div>
+        <div class="contact__button">
+          <a href="#" class="button1">Contact us now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---->
+
+  
+  <!-- Footer -->
+  <footer class="footer section bd-container">
+    <div class="footer__container bd-grid">
+      <div class="footer__content">
+        <a href="#" class="footer__logo">Chennai Chetinadu</a><br />
+        <span class="footer__description">Restaurant</span>
+      </div>
+      <div class="footer__content">
+        <h3 class="footer__title">Services</h3>
+        <ul>
+          <li><a href="#" class="footer__link">Delivery</a></li>
+          <li><a href="#" class="footer__link">Pricing</a></li>
+          <li><a href="#" class="footer__link">Fast food</a></li>
+          <li><a href="#" class="footer__link">Reserve your spot</a></li>
+        </ul>
+      </div>
+      <div class="footer__content">
+        <h3 class="footer__title">Information</h3>
+        <ul>
+          <li><a href="#" class="footer__link">Event</a></li>
+          <li><a href="#" class="footer__link">Contact us</a></li>
+          <li><a href="#" class="footer__link">Privacy policy</a></li>
+          <li><a href="#" class="footer__link">Terms of services</a></li>
+        </ul>
+      </div>
+      <div class="footer__content1">
+        <h3 class="footer__title">Address</h3>
+        <p class="footer__link">2814 W Bell Rd Phoenix, AZ 85053</p>
+
+        <p class="footer__link">
+          <a
+            class="footer__link"
+            href="mailto:nama.southen16@gmail.com"
+            target="_blank"
+            >nama.southen16@gmail.com</a
+          >
+        </p>
+
+        <p class="footer__link" class="footer__copy">
+          &copy; 2023 Southen. All rights reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+
+<form action="/logout?_method=DELETE" method="POST">
+    <button type="submit"> Log Out</button>
+</form>
